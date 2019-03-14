@@ -3,12 +3,9 @@ body{
 }
 
 #container{
-    width: 100%;
+    width: 500px;
     height: 100vh;
-    
     position: absolute;
-    margin-left: 50%;
-    left: -250px;
 }
 
 #playing-field{
@@ -16,8 +13,7 @@ body{
     height: 500px;
     
     position:absolute;
-    margin-top: -300px;
-    top:50%;
+    margin-top: 100px;
 
     border-radius: 5px;
     border: 5px solid #2c3e50;
@@ -32,6 +28,8 @@ body{
     position: absolute;
     width: 80px;
     height: 80px;
+    left: 0px;
+    top: 0px;
     
     background-color: #27ae60;
     border-radius: 50%;
@@ -62,6 +60,7 @@ body{
     height:60px;
     line-height: 60px;
     
+    
     background-color: #95a5a6;
     font-size: 25px;
     font-weight: bold;
@@ -71,4 +70,8 @@ body{
 
 .arrow:active{
     background-color: #7f8c8d
+}
+.header2{
+    font-family: Tahoma;
+    color: #27ae60;
 }
